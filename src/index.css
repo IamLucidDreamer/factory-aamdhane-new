@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'poppins';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.ant-page-header-heading-title {
+  color: #226a45 !important;
+}
+.ant-menu-dark {
+  overflow-x: hidden;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: #fff !important;
+  color: #000 !important;
+  margin-left: 10px !important;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.ant-menu-item-selected a,
+.ant-menu-item-selected span {
+  color: #000 !important;
+}

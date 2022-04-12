@@ -1,0 +1,74 @@
+body {
+  overflow-x: hidden;
+}
+input:hover {
+  border-left: 1px solid #d9d9d9 !important;
+  border-top: 1px solid #d9d9d9 !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.iconBtn {
+  border-right: 1px solid #d9d9d9 !important;
+  border-top: 1px solid #d9d9d9 !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.tileStyle {
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.factory-profile-card {
+  border-radius: 5px;
+  padding: 20px;
+  background: #fff;
+}
+
+.factory-profile-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.factory-profile-title h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0a6945;
+}
+.page-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0a6945;
+  padding: 20px 10px 10px 0px;
+}
+
+.info-edit-icon {
+  font-size: 25px;
+  color: #bcbcbc !important;
+}
+
+.float-icon {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  border-radius: 5px;
+  z-index: 9;
+}
+
+.factory-profile-image {
+  width: 100px;
+}
+
+.image-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.image-wrapper Image {
+  width: 250px;
+  height: 250px !important;
+}
+.ant-modal-wrap,
+.ant-modal-mask {
+  z-index: 999 !important;
+}

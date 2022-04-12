@@ -1,0 +1,79 @@
+.add-job-container {
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px !important;
+}
+
+.ant-select-selector {
+  height: 50px !important;
+  align-items: center;
+  border: 0 !important;
+  border-radius: 8px;
+
+  background-color: #ededed !important;
+}
+
+.ant-form-item-control-input-content input {
+  height: 50px !important;
+  align-items: center;
+  border: 1px solid #ededed !important;
+  border-radius: 8px;
+}
+
+.ant-form-item-label label,
+.label-heading {
+  color: #6c6c6c !important;
+  font-size: 16px;
+}
+
+.bottom-fixed-row {
+  background: #fff;
+  box-shadow: 2px -2px 6px 2px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  width: 100%;
+  left: 0;
+  display: flex;
+  flex: 2;
+  padding: 20px 20px 10px 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 9;
+  bottom: 0;
+}
+.bottom-fixed-row Button {
+  width: 250px;
+  background: #0a6945;
+  height: 45px;
+  border-radius: 8px;
+}
+
+.add-form-btn-component button {
+  font-size: 18px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  color: #0a6945;
+  font-weight: bold;
+}
+
+.add-form-btn-component .icon {
+  color: #888;
+  font-size: 24px;
+}
+.add-job-btn {
+  background: #0a6945 !important;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
+.close-form-icon {
+  font-size: 20px;
+  position: absolute;
+  right: 30px;
+  color: #6c6c6c !important;
+  cursor: hand;
+}
